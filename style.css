@@ -1,0 +1,107 @@
+body{
+    background-color: rgb(13, 13, 104);
+    overflow-x: hidden;
+}
+
+
+.heading{ 
+    display: block; 
+    margin: 30px auto;
+    padding: 20px;
+    color: white;
+    border: 0.5px solid white;
+    width: 50%; 
+    line-height: 20px;
+
+}
+
+.position{
+    display: block;
+    margin-top: -100px;
+}
+
+.computer-hand{
+    width: 8%;
+    background-color: white; 
+    padding: 5px;
+    position: relative;
+    display: block; 
+    margin-right:  340px;
+    margin-left: auto;
+    margin-top: -115px;
+    border: 15px solid rgb(236, 65, 65);
+    border-radius: 40em;
+    transform: rotate(360deg);
+}
+
+.attribution{ 
+    color: white;
+    margin-top: 140px;
+}
+
+ .player-hand{
+    width: 8%;
+    background-color: white; 
+    padding: 5px;
+    position: relative;
+    display: block;
+    margin-right:  auto;
+    margin-left: 350px;
+    margin-top: 120px; 
+    border: 15px solid rgb(86, 133, 236);
+    border-radius: 400em; 
+
+
+}
+
+.text{ 
+    position: relative;
+    left: 410px;
+    top: 20px;
+    font-size: 2em;
+    color: white;
+    
+}
+.text2{ 
+    position: relative;
+    color: white;
+    font-size: 1.7em;
+    left: 928px;
+    top: -2px;
+}
+
+.score1{ 
+    background-color: white;
+    color: black; 
+    position: relative;
+    left: 945px;
+    top: -125px;
+    border: 2px solid white;
+    border-radius: 0.5em;
+    padding: 25px;
+    width: 80px;
+    text-align: center;
+   
+    
+}
+
+.winLose{ 
+    position: relative;
+    color: white;
+    left: 650px;
+    top: -110px;
+    font-size: 1em;
+}
+    
+.options{
+    position: relative; 
+    text-align: center;
+    justify-content: center;
+    left: 600px;
+    top: -50px;
+    width: 200px;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+
